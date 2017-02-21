@@ -9,7 +9,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/activity_main"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         tools:context="com.example.android.happybirthday.MainActivity">
 
         <ImageView
@@ -20,7 +20,8 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:scaleType="centerCrop"
-            android:src="@drawable/stars" />
+            android:src="@drawable/stars"
+            android:contentDescription="@string/stars" />
 
         <com.tomer.fadingtextview.FadingTextView
             android:id="@+id/fadingTextView"
@@ -30,8 +31,8 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_margin="@dimen/text_normal_margin"
-            app:texts="array/Never"
-            app:timeout="500" />
+            app:texts="@array/Never"
+            app:timeout="1500" />
         <!--
         <TextView
             android:id="@+id/activity_main_textView_person_who"
@@ -80,8 +81,9 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
             android:layout_margin="@dimen/text_normal_margin"
-            android:text="happy birthday" />
+            android:text="@string/happy" />
 
 
     </RelativeLayout>

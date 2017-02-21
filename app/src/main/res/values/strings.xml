@@ -6,7 +6,6 @@
         <string name="because_one">because one day, you might wake up from your sleep</string>
         <string name="and_realize">and realize that you lost the moon while counting the stars.</string>
         <string name="greetings">Never ignore a person who loves you, cares for you and misses you, because one day, you might wake up from your sleep and realize that you lost the moon while counting the stars.</string>
-        <string name="happy">Happy birthday</string>
 
         -->
     <string name="app_name">Happy Birthday</string>
@@ -17,4 +16,6 @@
             <item>and realize that you lost the moon while counting the stars.</item>
         </string-array>
 
+    <string name="happy">Happy birthday</string>
+    <string name="stars">stars</string>
 </resources>
