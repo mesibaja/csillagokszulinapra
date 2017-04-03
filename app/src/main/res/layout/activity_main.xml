@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/activity_main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,7 +38,6 @@
             android:layout_centerHorizontal="true"
             android:layout_margin="@dimen/text_normal_margin"
             android:text="@string/person_who" />
-
         <TextView
             android:id="@+id/activity_main_textView_care_for"
             style="@style/NormalText"
@@ -53,7 +47,6 @@
             android:layout_centerHorizontal="true"
             android:layout_margin="@dimen/text_normal_margin"
             android:text="@string/cares_for" />
-
         <TextView
             android:id="@+id/activity_main_textView_because_one"
             style="@style/NormalText"
@@ -63,7 +56,6 @@
             android:layout_centerHorizontal="true"
             android:layout_margin="@dimen/text_normal_margin"
             android:text="@string/because_one" />
-
         <TextView
             android:id="@+id/activity_main_textView_and_realize"
             style="@style/NormalText"
@@ -87,5 +79,3 @@
 
 
     </RelativeLayout>
-
-</ScrollView>

@@ -1,4 +1,4 @@
-<resources>
+    <resources>
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
@@ -16,7 +16,7 @@
         <item name="android:textColor">@color/textColor</item>
         <item name="android:fontFamily">sans-serif</item>
         <item name="android:textAlignment">center</item>
-        <item name="android:layout_margin">@dimen/text_normal_margin</item>n
+        <item name="android:layout_margin">@dimen/text_normal_margin</item>
     </style>
 
     <style name="Title">
@@ -27,5 +27,6 @@
         <item name="android:textColor">@color/textColor</item>
         <item name="android:fontFamily">sans-serif-smallcaps</item>
         <item name="android:textAlignment">center</item>
+        <item name="android:layout_margin">@dimen/text_normal_margin</item>
     </style>
 </resources>
